@@ -22,14 +22,14 @@ namespace WebAppDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Applikationens beskrivningssida";
+            ViewBag.Message = "Applikationsbeskrivning";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Kontaktinformation";
 
             return View();
         }
